@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: url(images/bg.jpg);
+  font-family: "Baloo Bhai 2", cursive;
+}
+.container {
+  margin-top: 4rem;
+  background: linear-gradient(29deg,#00b9ff 0%, #faffff 100%);
+  width: 80%;
+  max-width: 100%;
+  margin-left: 6rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  border-radius: 6px;
+  padding: 3rem;
+  display: grid;
+  grid-template-areas:
+    "card1 card1 card1 card1 card2 card5"
+    "card3 card4 card4 card4 card4 card5";
+}
+.card {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 0.5rem;
+  border-radius: 6px;
+}
+.card1 {
+  background: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  box-shadow: -9px -9px 20px -7px rgba(2,2,2,0.39);
+ border-radius: 6px;
+  background-color: plum;
+  color: white;
+  grid-area: card1;
+}
+.card2 {
+  color: white;
+  grid-area: card2;
+  background: linear-gradient(183deg,#aaa0a0 0%, #faffff 100%);
+}
+
+.card3 {
+  background-color: white;
+  grid-area: card3;
+  box-shadow: -10px 12px 27px -7px rgba(2,2,2,0.39);
+}
+
+.card4 {
+  background-color: rgb(26, 26, 29);
+  color: white;
+  grid-area: card4;
+}
+.card5 {
+  background-color: white;
+  grid-area: card5;
+  box-shadow: 10px 9px 32px -7px rgba(0,0,0,0.5);
+}
+footer{
+    background-color: aliceblue;
+    
+    padding: 2rem;
+}
+.attribution{
+    font-size: large;
+    font-weight: 400;
+}
